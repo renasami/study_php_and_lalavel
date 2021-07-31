@@ -1,0 +1,82 @@
+2021-07-30 17:43:11 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+2021-07-30 17:43:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-30 17:43:13 0 [Note] InnoDB: Number of pools: 1
+2021-07-30 17:43:13 0 [Note] InnoDB: Using ARMv8 crc32 + pmull instructions
+2021-07-30 17:43:13 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-30 17:43:13 0 [Note] InnoDB: Using Linux native AIO
+2021-07-30 17:43:13 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-07-30 17:43:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-30 17:43:13 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-30 17:43:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-30 17:43:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-30 17:43:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-30 17:43:13 0 [Note] InnoDB: 10.6.3 started; log sequence number 42221; transaction id 14
+2021-07-30 17:43:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-30 17:43:13 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-30 17:43:13 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+2021-07-30 17:43:13 0 [Note] InnoDB: Buffer pool(s) load completed at 210730 17:43:13
+2021-07-30 17:43:13 0 [Warning] 'user' entry 'root@194ca9f055ae' ignored in --skip-name-resolve mode.
+2021-07-30 17:43:13 0 [Warning] 'proxies_priv' entry '@% root@194ca9f055ae' ignored in --skip-name-resolve mode.
+2021-07-30 17:43:13 0 [Note] mysqld: ready for connections.
+Version: '10.6.3-MariaDB-1:10.6.3+maria~focal'  socket: '/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+2021-07-30 17:43:34 5 [Warning] 'proxies_priv' entry '@% root@194ca9f055ae' ignored in --skip-name-resolve mode.
+2021-07-30 17:43:34 0 [Note] mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2021-07-30 17:43:34 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-07-30 17:43:34 0 [Note] InnoDB: Starting shutdown...
+2021-07-30 17:43:34 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-07-30 17:43:34 0 [Note] InnoDB: Buffer pool(s) dump completed at 210730 17:43:34
+2021-07-30 17:43:34 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2021-07-30 17:43:34 0 [Note] InnoDB: Shutdown completed; log sequence number 42233; transaction id 15
+2021-07-30 17:43:34 0 [Note] mysqld: Shutdown complete
+
+2021-07-30 17:43:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-30 17:43:35 0 [Note] InnoDB: Number of pools: 1
+2021-07-30 17:43:35 0 [Note] InnoDB: Using ARMv8 crc32 + pmull instructions
+2021-07-30 17:43:35 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-30 17:43:35 0 [Note] InnoDB: Using Linux native AIO
+2021-07-30 17:43:35 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-07-30 17:43:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-30 17:43:35 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-30 17:43:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-30 17:43:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-30 17:43:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-30 17:43:35 0 [Note] InnoDB: 10.6.3 started; log sequence number 42233; transaction id 14
+2021-07-30 17:43:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-30 17:43:35 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-30 17:43:35 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+2021-07-30 17:43:35 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-07-30 17:43:35 0 [Note] Server socket created on IP: '::'.
+2021-07-30 17:43:35 0 [Note] InnoDB: Buffer pool(s) load completed at 210730 17:43:35
+2021-07-30 17:43:35 0 [Warning] 'proxies_priv' entry '@% root@194ca9f055ae' ignored in --skip-name-resolve mode.
+2021-07-30 17:43:35 0 [Note] mysqld: ready for connections.
+Version: '10.6.3-MariaDB-1:10.6.3+maria~focal'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-07-31 13:57:18 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-07-31 13:57:18 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-07-31 13:57:18 0 [Note] InnoDB: Starting shutdown...
+2021-07-31 13:57:18 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-07-31 13:57:18 0 [ERROR] InnoDB: Cannot open '/var/lib/mysql/ib_buffer_pool.incomplete' for writing: No such file or directory
+2021-07-31 13:57:18 0 [Note] InnoDB: Shutdown completed; log sequence number 42245; transaction id 15
+2021-07-31 13:57:18 0 [Note] mysqld: Shutdown complete
+
+2021-07-31 13:59:25 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-31 13:59:25 0 [Note] InnoDB: Number of pools: 1
+2021-07-31 13:59:25 0 [Note] InnoDB: Using ARMv8 crc32 + pmull instructions
+2021-07-31 13:59:25 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-31 13:59:25 0 [Note] InnoDB: Using Linux native AIO
+2021-07-31 13:59:25 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-07-31 13:59:25 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-31 13:59:25 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-31 13:59:25 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2021-07-31 13:59:25 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-31 13:59:25 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-31 13:59:25 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-31 13:59:25 0 [Note] InnoDB: 10.6.3 started; log sequence number 42245; transaction id 14
+2021-07-31 13:59:25 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-31 13:59:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-31 13:59:25 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+2021-07-31 13:59:25 0 [Note] Server socket created on IP: '0.0.0.0'.
+2021-07-31 13:59:25 0 [Note] Server socket created on IP: '::'.
+2021-07-31 13:59:25 0 [Note] InnoDB: Buffer pool(s) load completed at 210731 13:59:25
+2021-07-31 13:59:25 0 [Warning] 'proxies_priv' entry '@% root@194ca9f055ae' ignored in --skip-name-resolve mode.
+2021-07-31 13:59:25 0 [Note] mysqld: ready for connections.
+Version: '10.6.3-MariaDB-1:10.6.3+maria~focal'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
